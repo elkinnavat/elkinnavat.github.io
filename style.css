@@ -1,0 +1,28 @@
+body {
+    background: linear-gradient(90deg, #fba96b, #c54b5e);
+}
+.title {
+    width: 90%; 
+    margin: 0 auto; 
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-family: Comic Sans MS; 
+  }
+
+.subtitle{
+    width: 90%; 
+    margin: 0 auto;
+    color: rgb(0, 0, 0);
+  }
+
+  .nabosimg {
+    float: right;
+    margin-right: 50px;
+    max-width: 40%; /* La imagen no excederá el ancho del contenedor */
+    height: auto;    /* Mantiene la proporción de la imagen */
+  }
+
+  .NOS {
+    width: 90%; /* Ocupa el 80% del ancho de la ventana */
+    margin: 0 auto; /* Centra horizontalmente */
+  }
