@@ -5,7 +5,6 @@ body {
     width: 90%; 
     margin: 0 auto; 
     color: rgb(0, 0, 0);
-    font-size: 30px;
     font-family: Comic Sans MS; 
   }
 
@@ -17,12 +16,27 @@ body {
 
   .nabosimg {
     float: right;
+    margin-right: 10px;
+    margin-left: 50px;
+    max-width: 40%; 
+    height: auto;   
+  }
+
+  .linuximg {
+    float: left;
     margin-right: 50px;
-    max-width: 40%; /* La imagen no excederá el ancho del contenedor */
-    height: auto;    /* Mantiene la proporción de la imagen */
+    max-width: 40%; 
+    height: auto;
   }
 
   .NOS {
-    width: 90%; /* Ocupa el 80% del ancho de la ventana */
-    margin: 0 auto; /* Centra horizontalmente */
+    width: 90%; 
+    margin: 0 auto; 
+  }
+
+  .bord {
+    /*background-color: rgba(0, 0, 0, 0.5);*/
+    border-radius: 15px; 
+    padding: 10px; 
+    border: 2px solid black;
   }
