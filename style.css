@@ -1,25 +1,23 @@
 body {
-    background: linear-gradient(90deg, #fba96b, #c54b5e);
+    background: linear-gradient(60deg, #fba96b, #c54b5e);
 }
-.title {
-    width: 90%; 
+.wiwi {
+    width: 95%; 
     margin: 0 auto; 
     color: rgb(0, 0, 0);
-    font-family: Comic Sans MS; 
   }
 
-.subtitle{
-    width: 90%; 
-    margin: 0 auto;
-    color: rgb(0, 0, 0);
+.notosans{
+  font-family: "Noto Sans", serif;
   }
-
+  
   .nabosimg {
     float: right;
     margin-right: 10px;
     margin-left: 50px;
     max-width: 40%; 
-    height: auto;   
+    height: auto;
+    border-radius: 10px;
   }
 
   .linuximg {
@@ -29,10 +27,6 @@ body {
     height: auto;
   }
 
-  .NOS {
-    width: 90%; 
-    margin: 0 auto; 
-  }
 
   .bord {
     /*background-color: rgba(0, 0, 0, 0.5);*/
@@ -40,3 +34,5 @@ body {
     padding: 10px; 
     border: 2px solid black;
   }
+
+
