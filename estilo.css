@@ -4,11 +4,23 @@ body {
 h1 {
     color: rgb(0, 0, 0);
     text-align: center;
-    font-size: 30px; /* Tamaño del texto */
-    font-family: Comic Sans MS; /* Fuente del texto */
+    font-size: 30px;
+    font-family: Comic Sans MS; 
 }
 p {
     font-size: 20px;
     text-align: center;
     color: rgb(0, 0, 0);
 }
+
+p1 {
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    font-family: Comic Sans MS; 
+}
+
+.nabos {
+    text-align: center;
+    width: 400px; /* Ancho deseado */
+    height: 300px; /* Altura deseada */
+  }
