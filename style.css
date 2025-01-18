@@ -1,7 +1,7 @@
 /*fondo*/
   body {
     /*esto esta de mas explicar que es*/
-    background-color: peru;
+    background-color: #928989;
     /*Intentos de degradados anteriores*/
     /*#fba96b, #c54b5e*/
     /*#9c5800, #b46c09, #cb7f13, #e3931c, #fba726*/
@@ -40,7 +40,7 @@
   }
   .clicki{
     /*color para los enlaces*/
-    color: rgb(255, 231, 195);
+    color: rgb(56, 51, 58);
   }
 
 /*bordes y margenes*/
@@ -50,12 +50,20 @@
     margin: 0 auto; 
   }
 
+  .boton {
+    position: relative;
+    padding: 10px;
+    border: 2px solid black;
+    background-color: #f0eeed;
+    
+  }
+
   .caja {
     position: relative;
     padding: 10px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7); /* Sombra alrededor del borde */
     border: 2px solid black;
-    background-color: peru;
+    background-color: #f0eeed;
     
   }
   /* Pseudoelementos para bordes adicionales */
@@ -67,7 +75,7 @@
     left: -10px; /* Desplazamiento izquierdo */
     width: 100%;
     height: 100%;
-    background-color: peru;
+    background-color: #d6d6d6;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7); /* Sombra alrededor del borde */
     border: 2px solid black;
     z-index: -1; /* Ubica los bordes detrás de la caja */
