@@ -17,7 +17,7 @@ body {
     margin-left: 50px;
     max-width: 40%; 
     height: auto;
-    border-radius: 10px;
+  
   }
 
   .linuximg {
@@ -30,9 +30,17 @@ body {
 
   .bord {
     /*background-color: rgba(0, 0, 0, 0.5);*/
-    border-radius: 15px; 
+    border-radius: 30px; 
     padding: 10px; 
     border: 2px solid black;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7); /* Sombra alrededor del borde */
   }
 
+  .just {
+    text-align: justify;
+    word-spacing: 1px; /* Aumenta el espacio entre las palabras */
+  }
 
+  .clicki{
+    color: rgb(163, 111, 33);
+  }
