@@ -1,15 +1,23 @@
 /*fondo*/
   body {
-    background: linear-gradient(60deg, #fba96b, #c54b5e);
+    /*esto esta de mas explicar que es*/
+    background-color: peru;
+    /*Intentos de degradados anteriores*/
+    /*#fba96b, #c54b5e*/
+    /*#9c5800, #b46c09, #cb7f13, #e3931c, #fba726*/
+    /*#913f33, #ff705f, #ffaa67, #ffdfab, #9fb9c2);*/
 }
+
 
 /*fuentes*/
   .notosans{
+    /*esto esta de mas explicar que es x2*/
   font-family: "Noto Sans", serif;
   }
 
 /*imagenes*/
   .nabosimg {
+    /*imagen principal de "navos"*/
     float: right;
     margin-right: 10px;
     margin-left: 50px;
@@ -17,6 +25,7 @@
     height: auto;
   }
   .linuximg {
+    /*para una imagen de linuxazo*/
     float: left;
     margin-right: 50px;
     max-width: 30%; 
@@ -25,23 +34,42 @@
 
 /*textos*/
   .just {
+    /*para justificar el texto*/
     text-align: justify;
-    word-spacing: 1px; /* Aumenta el espacio entre las palabras */
+    word-spacing: 1px; 
   }
   .clicki{
-    color: rgb(163, 111, 33);
+    /*color para los enlaces*/
+    color: rgb(255, 231, 195);
   }
 
 /*bordes y margenes*/
-  .bord {
-    /*background-color: rgba(0, 0, 0, 0.5);*/
-    /*border-radius: 30px; */
-    padding: 10px; 
-    border: 2px solid black;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7); /* Sombra alrededor del borde */
-  }
   .wiwi {
-    width: 95%; 
+    /*margen*/
+    width: 90%; 
     margin: 0 auto; 
-    color: rgb(0, 0, 0);
   }
+
+  .caja {
+    position: relative;
+    padding: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7); /* Sombra alrededor del borde */
+    border: 2px solid black;
+    background-color: peru;
+    
+  }
+  /* Pseudoelementos para bordes adicionales */
+  .caja::before,
+  .caja::after {
+    content: '';
+    position: absolute;
+    top: -10px; /* Desplazamiento superior */
+    left: -10px; /* Desplazamiento izquierdo */
+    width: 100%;
+    height: 100%;
+    background-color: peru;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7); /* Sombra alrededor del borde */
+    border: 2px solid black;
+    z-index: -1; /* Ubica los bordes detrás de la caja */
+  }
+  
