@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>huh</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="icon.webp">
+    <link rel="icon" href="assets/icon.webp">
 </head>
 <body>
 <br>
@@ -18,7 +18,7 @@
 <!--  Seccion NavOS  -->
 <br>
 <div class="wiwi caja notosans">
-<img src="nabosnew.webp" class="nabosimg">
+<img src="assets/nabosnew.webp" class="nabosimg">
 <h1>NavOS (pre-alpha)</h1>
 <p class="just">NavOS es una modificación personalizada aplicada a la imagen ISO de Windows 10 Pro, versión 22H2. Su objetivo principal es optimizar la experiencia del usuario mediante la eliminación de aplicaciones innecesarias preinstaladas que suelen consumir recursos y espacio en disco, así como la incorporación de diversas utilidades y herramientas adicionales. Estas mejoras están diseñadas para facilitar una configuración más rápida y eficiente del sistema operativo una vez completada su instalación. NavOS no solo ofrece un entorno más limpio y funcional, sino que también busca mejorar el rendimiento general del sistema y reducir la carga de trabajo inicial del usuario, garantizando que puedan empezar a utilizar su equipo de manera más productiva desde el primer momento.</p>
 
@@ -35,5 +35,22 @@
     <p>Proximamente</p>
     <br>
     </div>
+
+    <audio id="wtfquehaceunmp3aqui" autoplay loop>
+        <source src="assets/Fluffing a Duck.mp3" type="audio/mpeg">
+    </audio>
+    <button onclick="toggleAudio()">⏯️</button>
+
+<script>
+    function toggleAudio() {
+        const audio = document.getElementById("wtfquehaceunmp3aqui");
+        if (audio.paused) {
+            audio.play();
+        } else {
+            audio.pause();
+        }
+    }
+</script>
+
 </body>
 </html>

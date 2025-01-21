@@ -55,7 +55,7 @@
     padding: 10px;
     border: 2px solid black;
     background-color: #f0eeed;
-    
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7); /* Sombra alrededor del borde */
   }
 
   .caja {
