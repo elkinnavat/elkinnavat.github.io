@@ -81,3 +81,29 @@
     z-index: -1; /* Ubica los bordes detrás de la caja */
   }
   
+/* Estilo base del botón */
+button {
+  float: right;
+  margin-right: 10px;
+  margin-left: 50px;
+  margin-top: 7px;
+  max-width: 40%; 
+  height: auto;
+  position: relative;
+  padding: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7); 
+  border: 2px solid black;
+  background-color: #f0eeed;
+}
+/* Efecto al pasar el mouse */
+button:hover {
+  background-color: #7c7c7c; 
+  transform: scale(1.05); /* Aumentar ligeramente el tamaño */
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
+}
+/* Efecto al hacer clic */
+button:active {
+  background-color: #707070; 
+  transform: scale(0.95); /* Reducir ligeramente el tamaño */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombra más pequeña */
+}

@@ -6,3 +6,14 @@ function toggleAudio() {
         audio.pause();
     }
 }
+
+
+    const boton = document.getElementById('navos');
+    // Agregar un evento de clic
+    boton.onclick = function() {
+        // Cambiar la ubicación actual a otra página
+        window.location.href = "nabos.html";
+    };
+
+
+//BLOTWAREEEEEEE
