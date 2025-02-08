@@ -6,10 +6,15 @@
     <title>huh</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="assets/icon.webp">
-    <script src="wtfyesterandom.js" defer></script>
+    <script src="wtfyesterandom.js"></script>
     <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" defer></script>
     <script>
-
+    document.addEventListener("DOMContentLoaded", function() {
+    var userLang = navigator.language || navigator.userLanguage;
+    if (userLang.startsWith('en')) {
+        window.location.href = "index_en.html";
+    }
+});
     </script>
     <style>
         .emoji {
