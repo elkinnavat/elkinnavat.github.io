@@ -8,12 +8,11 @@
     /*#913f33, #ff705f, #ffaa67, #ffdfab, #9fb9c2);*/
 }
 
-
-/*fuentes*/
-  .notosans{
-    /*esto esta de mas explicar que es x2*/
+body{
   font-family: "Noto Sans", serif;
-  }
+}
+
+
 
 
 /*bordes y margenes*/
