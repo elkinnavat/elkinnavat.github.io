@@ -7,36 +7,23 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="assets/icon.webp">
     <script src="wtfyesterandom.js"></script>
-    <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" defer></script>
-    <script>
-    document.addEventListener("DOMContentLoaded", function() {
-    var userLang = navigator.language || navigator.userLanguage;
-    if (userLang.startsWith('en')) {
-        window.location.href = "index_en.html";
-    }
-});
-    </script>
-    <style>
-        .emoji {
-            font-family: 'Noto Color Emoji', sans-serif;
-        }
-    </style>
 </head>
 <body>
 <br>
 <!--  Seccion del Titulo  -->
-<div class="caja wiwi notosans">
+<div class="notosans">
+<div class="caja wiwi">
 <h1 class="title">Insane Navat Page</h1>
 </div>
 <br>
 <!--  Seccion NavOS  -->
 <br>
-<div class="wiwi caja notosans">
+<div class="wiwi caja">
 <h1>Sobre Mi</h1>
 <p>Yo soy Navat, soy un joven de 18 años y me gusta hacer cosas randoms.</p>
 <p class="emoji">🇪🇨 Soy Ecuatoriano (ya no nos cortan la luz 👍)</p>
 <p class="emoji">🎮 Me gustan los juegos de puzzle</p>
-<p class="emoji">💻 Entusiasta del software y hardware</p>
+<p class="emoji">💻 Entusiasta del software</p>
 <p class="emoji">🇪🇸 Yo hablo español pero se lo basico de ingles</p>
 <p></p>
 <br>
@@ -44,9 +31,13 @@
 <br>
 <!--  Seccion Redes  -->
 <br>
-<div class="wiwi caja notosans">
-    <h1>Redes</h1>
-    <p>Proximamente</p>
+<div class="wiwi caja">
+    <h1>Extra</h1>
+    <div class="cajasocial">
+    <img class="social" src="assets/ig.png" alt="IG"  width="32" height="32"> <a href="https://www.instagram.com/E_Navat_/">@E_Navat_</a>
+    </div><br><br><div class="cajasocial">
+    <img class="social" src="assets/yt.png"><a href="//www.youtube.com/@Navat1">Navat</a>
+    </div>
     <br>
 </div>
 <br>
@@ -55,9 +46,10 @@
     <source src="assets/Fluffing a Duck.mp3" type="audio/mpeg">
 </audio>
 <br>
-<div class="caja wiwi notosans">
+<div class="caja wiwi">
     <button onclick="toggleAudio()">♪</button><p>Musiquita de fondo </p>
 </div>
 <br>
+</div>
 </body>
 </html>
