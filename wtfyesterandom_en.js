@@ -12,3 +12,6 @@ document.addEventListener("DOMContentLoaded", function() {
         window.location.href = "index.html";
     }
 });
+function redirigir(url) {
+    window.location.href = url;
+}

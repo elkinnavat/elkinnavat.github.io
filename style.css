@@ -7,13 +7,10 @@
     /*#9c5800, #b46c09, #cb7f13, #e3931c, #fba726*/
     /*#913f33, #ff705f, #ffaa67, #ffdfab, #9fb9c2);*/
 }
-
+/*propiedades al body del html*/
 body{
   font-family: "Noto Sans", serif;
 }
-
-
-
 
 /*bordes y margenes*/
   .wiwi {
@@ -21,7 +18,6 @@ body{
     width: 90%; 
     margin: 0 auto; 
   }
-
   .boton {
     position: relative;
     padding: 10px;
@@ -29,14 +25,12 @@ body{
     background-color: #f0eeed;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7); /* Sombra alrededor del borde */
   }
-
   .caja {
     position: relative;
     padding: 10px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7); /* Sombra alrededor del borde */
     border: 2px solid black;
     background-color: #f0eeed;
-
   }
   /* Pseudoelementos para bordes adicionales */
   .caja::before,
@@ -55,39 +49,27 @@ body{
   
 /* Estilo base del botón */
 button {
-  float: right;
-  margin-right: 10px;
-  margin-left: 50px;
-  margin-top: 7px;
   max-width: 40%; 
   height: auto;
   position: relative;
   padding: 10px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7); 
   border: 2px solid black;
-  background-color: #f0eeed;
+  background-color: #ffffff;
 }
+
 /* Efecto al pasar el mouse */
 button:hover {
-  background-color: #7c7c7c; 
-  transform: scale(1.05); /* Aumentar ligeramente el tamaño */
-  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
+  background-color: #ffffff; 
+  transform: scale(1.05);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7); 
 }
+
 /* Efecto al hacer clic */
 button:active {
   background-color: #707070; 
-  transform: scale(0.95); /* Reducir ligeramente el tamaño */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombra más pequeña */
-}
-
-.cajasocial {
-  display: inline-block;
-  box-sizing: border-box;
-  position: relative;
-  padding: 10px;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7); /* Sombra alrededor del borde */
-  border: 2px solid black;
-  background-color: #f0eeed;
+  transform: scale(0.95);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7); 
 }
 
 .emoji {
@@ -95,6 +77,12 @@ button:active {
 }
 
 .social {
-  float: left; /* Coloca la imagen al lado izquierdo */
-  margin-right: 10px; /* Espacio entre la imagen y el texto */
+  float: left;
+  margin-right: 10px;
+}
+
+.music{
+  margin-right: 1%;
+  margin-top: 1.5%;
+  float: right;
 }

@@ -17,9 +17,9 @@
 </head>
 <body>
     <!--  Coso para iniciar AOS  -->
+    <!--  aun no se usa  -->
     <script>
-        AOS.init(
-        );
+        AOS.init();
       </script>
 <br>
 <!--  Seccion del Titulo  -->
@@ -44,25 +44,21 @@
 <br>
 <div class="wiwi caja">
     <h1>Extra</h1>
-    <div class="cajasocial">
-    <img class="social" src="assets/ig.png" alt="IG"  width="32" height="32"> <a href="https://www.instagram.com/E_Navat_/">@E_Navat_</a>
-    </div><br><br><div class="cajasocial">
-    <img class="social" src="assets/yt.png"><a href="//www.youtube.com/@Navat1">Navat</a>
-    </div><br><br><div class="cajasocial">
-    <img class="social" src="assets/github.png"><a href="https://github.com/elkinnavat">elkinnavat</a>
-    </div>
+    <button onclick="redirigir('https://www.instagram.com/e_navat_/')"><img class="social" src="assets/ig.png">@E_Navat_</button>
+    <br><br>
+    <button onclick="redirigir('https://www.youtube.com/@Navat1')"><img class="social" src="assets/yt.png">Navat</button>
+    <button onclick="redirigir('https://github.com/elkinnavat/')"><img class="social" src="assets/github.png">elkinnavat</button>
     <p></p>
     <br>
 </div>
 <br>
 <!--  Background Music  -->
-<audio id="wtfquehaceunmp3aqui" autoplay loop>
+<audio id="bmusic" autoplay loop>
     <source src="assets/Pixelland.mp3" type="audio/mpeg">
 </audio>
 <br>
 <div class="caja wiwi" >
-    <button onclick="toggleAudio()">♪</button><p>Musiquita de fondo </p>
-
+    <button onclick="toggleAudio()" class="music">♪</button><p>Musiquita de fondo </p>
 </div>
 <br><br>
 </body>
