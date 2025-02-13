@@ -1,20 +1,10 @@
-/*fondo*/
   body {
-    /*esto esta de mas explicar que es*/
     background-color: #928989;
-    /*Intentos de degradados anteriores*/
-    /*#fba96b, #c54b5e*/
-    /*#9c5800, #b46c09, #cb7f13, #e3931c, #fba726*/
-    /*#913f33, #ff705f, #ffaa67, #ffdfab, #9fb9c2);*/
-}
-/*propiedades al body del html*/
-body{
-  font-family: "Noto Sans", serif;
-}
+    font-family: "Noto Sans", serif;
+  }
 
 /*bordes y margenes*/
   .wiwi {
-    /*margen*/
     width: 90%; 
     margin: 0 auto; 
   }
@@ -23,16 +13,15 @@ body{
     padding: 10px;
     border: 2px solid black;
     background-color: #f0eeed;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7); /* Sombra alrededor del borde */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7); 
   }
   .caja {
     position: relative;
     padding: 10px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7); /* Sombra alrededor del borde */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
     border: 2px solid black;
     background-color: #f0eeed;
   }
-  /* Pseudoelementos para bordes adicionales */
   .caja::before,
   .caja::after {
     content: '';
@@ -42,12 +31,11 @@ body{
     width: 100%;
     height: 100%;
     background-color: #d6d6d6;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7); /* Sombra alrededor del borde */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
     border: 2px solid black;
-    z-index: -1; /* Ubica los bordes detrás de la caja */
+    z-index: -1; /*mueve esta caja destras de la otra*/
   }
   
-/* Estilo base del botón */
 button {
   max-width: 40%; 
   height: auto;
@@ -58,14 +46,12 @@ button {
   background-color: #ffffff;
 }
 
-/* Efecto al pasar el mouse */
 button:hover {
   background-color: #ffffff; 
   transform: scale(1.05);
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7); 
 }
 
-/* Efecto al hacer clic */
 button:active {
   background-color: #707070; 
   transform: scale(0.95);
@@ -76,13 +62,28 @@ button:active {
   font-family: 'Noto Color Emoji', sans-serif;
 }
 
-.social {
+.social-img{
   float: left;
+  display: fle;
+  align-items: center;
+  margin-top: 5px;
   margin-right: 10px;
 }
 
-.music{
-  margin-right: 1%;
-  margin-top: 1.5%;
-  float: right;
+.social-text{
+  display: grid;
+  position: relative;
+  align-items: center;
 }
+
+.music-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+}
+
+.music {
+  margin-left: auto;
+}
+

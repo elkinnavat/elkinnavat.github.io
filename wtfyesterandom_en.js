@@ -1,5 +1,5 @@
 function toggleAudio() {
-    const audio = document.getElementById("wtfquehaceunmp3aqui");
+    const audio = document.getElementById("bmusic");
     if (audio.paused) {
         audio.play();
     } else {
