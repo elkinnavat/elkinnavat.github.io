@@ -62,6 +62,11 @@ button:active {
   font-family: 'Noto Color Emoji', sans-serif;
 }
 
+.social-button{
+  /*previene que el boton se junte mucho a otro si la pantalla se redimenciona*/
+  margin-top: 10px;
+}
+
 .social-img{
   float: left;
   display: fle;
